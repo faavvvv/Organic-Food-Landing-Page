@@ -24,13 +24,10 @@
             background-color: rgba(255, 255, 255, 0.3); 
             z-index: -1;
         }
-        
-        
+
 
     </style>
 </head>
-<body>
-    </head>
 <body class="font-sans antialiased text-gray-800">
 
 
@@ -58,35 +55,52 @@
         </div>
     </header>
 
- 
-    <section class="hero-organic py-20 md:py-32 text-center text-gray-900">
-        <div class="container mx-auto px-4 relative z-10">
-             <h2 class="text-5xl md:text-7xl font-bold tracking-tight leading-none">Organic</h2> <br>
-            <p class="text-lg md:text-xl font-semibold mb-2"><i>Bring health to your home in a couple of clicks.</i></p>
-            <p class="text-lg md:text-xl font-semibold mb-12"><i>Buy organic food right from farmers.</i></p>
-           
+ <section class="hero-organic py-20 md:py-32 text-center text-gray-900">
+    <div class="container mx-auto px-4 relative z-10">
+        <h2 class="text-5xl md:text-7xl font-bold tracking-tight leading-none mb-6">Organic Foods</h2> 
+        <p class="text-lg md:text-xl font-semibold italic mb-2">Bring health to your home in a couple of clicks.</p>
+        <p class="text-lg md:text-xl font-semibold italic mb-12">Buy organic food right from farmers.</p>
+    </div>
+</section>
+
+
+    <!--SECTION 2 homemade--> 
+   <section>
+    <div class="flex flex-col md:flex-row bg-black text-white mx-4 my-8 md:my-16 rounded-lg overflow-hidden">
+        <div class="w-full md:w-1/2 flex flex-col justify-center p-6 md:p-12 max-w-xl md:mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Home-Made 🌱</h1>
+            <p class="mb-8 text-base md:text-lg leading-relaxed">
+                All our items are grown in ecologically safe conditions and are completely natural.
+                We source directly from the best farmers to provide our clients with healthy food,
+                cultivated with love and care, truly homemade.
+            </p>
+
+            <button class="bg-yellow-500 text-gray-900 px-8 py-4 rounded-md font-semibold hover:bg-yellow-400 transition duration-300 shadow-lg self-start">
+                MAKE AN ORDER
+            </button>
         </div>
-    </section>
+
+        <div class="w-full md:w-1/2 flex flex-wrap items-center justify-center p-4 md:p-8 gap-4 md:gap-6">
+            <img src="egg.jpg" alt="Farm-fresh organic eggs" class="w-full h-48 sm:w-64 sm:h-64 object-cover rounded-lg shadow-md md:w-56 md:h-56 lg:w-64 lg:h-64"/>
+            <img src="Tomatoes.jpg" alt="Ripe organic tomatoes on the vine" class="w-full h-48 sm:w-64 sm:h-64 object-cover rounded-lg shadow-md md:w-56 md:h-56 lg:w-64 lg:h-64"/>
+        </div>
+    </div>
+</section>
+
 
      <!-- FOOTER SECTION -->
-    <footer class="bg-[#F9C74F] text-black box-border border pb-5 pt-5 px-8 text-center space-y-6"> 
-      <section class="mb-0">
-        <h2 class="text-5xl font-bold  relative bottom-11 mb-0">Want to be informed?
-        </h2>
-        <form class="flex justify-center items-center gap-4 flex-wrap ">
-          <input type="email"placeholder="Email" class="px-4 py-2 rounded border border-gray-700 w-64" required>
-          <button type="submit" class="bg-gray-900 text-white px-4 py-2 rounded ">Subscribe
-          </button>
-        </form>
-      </section>
-      <nav class="flex justify-center space-x-34 text-sm font-medium mt-18 mb-9 text-gray-700">
-        <a href="#" class="hover:underline ">About</a>
-        <a hrerf="#" class="hover:underline">Help</a>
-        <a href="#" class="hover:underline">Contact</a>
-        <a href="#" class="hover:underline">Terms</a>
-      </nav>
-      <div class="text-4xl font-bold text-gray-700 ">O</div>
-    </footer>
+    <footer class="bg-[#F9C74F] text-black py-8 md:py-12 px-4 md:px-8 text-center space-y-8">
+  <section class="mb-8"> <h2 class="text-4xl md:text-5xl font-bold mb-6">Want to be informed? ✉️</h2> <form class="flex justify-center items-center gap-4 flex-wrap">
+      <input type="email" placeholder="Email" class="px-4 py-2 rounded border border-gray-700 w-full sm:w-64 focus:ring-2 focus:ring-gray-900 focus:border-transparent" required> <button type="submit" class="bg-gray-900 text-white px-6 py-2 rounded hover:bg-gray-800 transition duration-300">Subscribe</button> </form>
+  </section>
+
+  <nav class="flex justify-center space-x-8 md:space-x-16 text-sm font-medium text-gray-800"> <a href="#" class="hover:underline">About</a>
+    <a href="#" class="hover:underline">Help</a> <a href="#" class="hover:underline">Contact</a>
+    <a href="#" class="hover:underline">Terms</a>
+  </nav>
+
+  <div class="text-4xl font-bold text-gray-800">O</div> <p class="text-xs text-gray-600 mt-4">© 2025 Organic. All rights reserved.</p> </footer>
+
 
 </body>
 </html>
