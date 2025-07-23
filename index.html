@@ -30,13 +30,12 @@
 </head>
 <body class="font-sans antialiased text-gray-800">
 
-
-    <header class="bg-white py-4 shadow-sm">
+     <!--SECTION 1-->
+<header class="bg-white py-4 shadow-sm">
         <div class="container mx-auto px-4 flex items-center justify-between">
             
             <div class="text-3xl font-bold text-gray-900">O</div>
 
-          
             <div class="hidden md:flex items-center space-x-8">
                 <nav class="space-x-6 text-sm font-semibold">
                     <a href="#" class="text-gray-600 hover:text-gray-900">FEATURES</a>
@@ -48,41 +47,46 @@
                 </button>
             </div>
 
-                   <div class="md:hidden flex items-center border border-gray-300 rounded-full px-4 py-2 text-sm text-gray-600">
+            <div class="md:hidden flex items-center border border-gray-300 rounded-full px-4 py-2 text-sm text-gray-600">
                 <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 <span>Search by location</span>
             </div>
         </div>
     </header>
 
- <section class="hero-organic py-20 md:py-32 text-center text-gray-900">
+<section class="hero-organic py-20 md:py-32 text-center text-gray-900">
     <div class="container mx-auto px-4 relative z-10">
         <h2 class="text-5xl md:text-7xl font-bold tracking-tight leading-none mb-6">Organic Foods</h2> 
         <p class="text-lg md:text-xl font-semibold italic mb-2">Bring health to your home in a couple of clicks.</p>
-        <p class="text-lg md:text-xl font-semibold italic mb-12">Buy organic food right from farmers.</p>
+        <p class="text-lg md:text-xl font-semibold italic">Buy organic food right from farmers.</p>
     </div>
 </section>
 
-
-    <!--SECTION 2 homemade--> 
-   <section>
-    <div class="flex flex-col md:flex-row bg-black text-white mx-4 my-8 md:my-16 rounded-lg overflow-hidden">
-        <div class="w-full md:w-1/2 flex flex-col justify-center p-6 md:p-12 max-w-xl md:mx-auto">
-            <h1 class="text-4xl md:text-5xl font-bold mb-6">Home-Made 🌱</h1>
-            <p class="mb-8 text-base md:text-lg leading-relaxed">
-                All our items are grown in ecologically safe conditions and are completely natural.
-                We source directly from the best farmers to provide our clients with healthy food,
-                cultivated with love and care, truly homemade.
-            </p>
-
-            <button class="bg-yellow-500 text-gray-900 px-8 py-4 rounded-md font-semibold hover:bg-yellow-400 transition duration-300 shadow-lg self-start">
+ <!--SECTION 2 homemade-->
+<section>
+   <div class="flex flex-col md:flex-row bg-black border-2 mx-4">
+    <div class="w-full md:w-1/2 flex flex-col justify-center text-white m-4 p-4 max-w-xl">
+        <h1 class="text-5xl font-bold mb-6">Home-Made</h1>
+        <p class="mb-6">All the items are grown in ecologically safe conditions and are totally genetic.
+            We take them right from the best farmers to provide our clients with healthy food
+            grown with love and being homemade.
+        </p>
+            <button class="bg-yellow-500 text-gray-900 px-6 py-3 sm:px-8 sm:py-4 rounded-md font-semibold hover:bg-yellow-400 transition duration-300 shadow-lg self-start text-sm sm:text-base">
                 MAKE AN ORDER
             </button>
         </div>
 
-        <div class="w-full md:w-1/2 flex flex-wrap items-center justify-center p-4 md:p-8 gap-4 md:gap-6">
-            <img src="egg.jpg" alt="Farm-fresh organic eggs" class="w-full h-48 sm:w-64 sm:h-64 object-cover rounded-lg shadow-md md:w-56 md:h-56 lg:w-64 lg:h-64"/>
-            <img src="Tomatoes.jpg" alt="Ripe organic tomatoes on the vine" class="w-full h-48 sm:w-64 sm:h-64 object-cover rounded-lg shadow-md md:w-56 md:h-56 lg:w-64 lg:h-64"/>
+        <div class="homemade-image-group hidden md:block">
+            <img 
+                src="egg.jpg" 
+                alt="Eggs" 
+                class="w-48 h-48 md:w-64 md:h-64 object-contain"
+            />
+            <img 
+                src="Tomatoes.jpg" 
+                alt="Tomato" 
+                class="w-48 h-48 md:w-64 md:h-64 object-contain"
+            />
         </div>
     </div>
 </section>
